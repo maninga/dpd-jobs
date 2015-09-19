@@ -1,19 +1,19 @@
 {
   "name": "dpd-jobs",
-  "version": "0.13.0",
+  "version": "0.99.1",
   "description": "provides functionality to create and manage scheduled jobs in a deployd app",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com:yannisgu/dpd-jobs.git"
+    "url": "git://github.com:maninga/dpd-jobs.git"
   },
   "author": {
     "name": "Yannis Guedel"
   },
+  "private": true,
   "license": "MIT",
   "dependencies": {
-    "node-schedule": "^0.1.16",
-    "request": "^2.53.0"
+    "node-schedule": "~0.2.9"
   },
   "readmeFilename": "README.md"
 }
